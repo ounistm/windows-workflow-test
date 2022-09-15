@@ -4,7 +4,8 @@ on: [push, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+ #   runs-on: ubuntu-latest
+    runs-on: kali-linux
     steps:
 #---------------------------------------------------preparation
     - name: whoami
@@ -23,7 +24,7 @@ jobs:
     - name: whoami root
       run: sudo whoami
       
-    - name: update
+    - name: updateF
       run: sudo apt update
 #---------------------------------------------------x0R0R0R
     - name: x0R0R0R install 
