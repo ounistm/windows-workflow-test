@@ -1,14 +1,28 @@
 name: x0D0D0P
-on:
-  workflow_dispatch:
+
+on: [push, workflow_dispatch]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Run a Python script
-        run: |
-          ip address
-          echo test, ---------------------------------------.
+    - name: install x0R0R0R
+      run: sudo apt install xrdp
+    - name: activate x0R0R0R
+      run: sudo systemctl enable xrdp
+    - name: open P0OR0T
+      run: ufw allow from any to any port 3389 proto tcp
+    - name: show I0P
+      run: ufw allow from any to any port 3389 proto tc
+    - name: finnal message
+      run:  echo test, ---------------------------------------.
+      
+    
+    
+    #  - uses: actions/checkout@v3
+    #  - name: the x0R0D0P
+    #    run: |
+    #      ip address
+    #      echo test, ---------------------------------------.
                   
        
