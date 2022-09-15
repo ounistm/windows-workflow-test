@@ -27,7 +27,7 @@ jobs:
     - name: whoami root
       run: sudo whoami
       
-    - name: updateF
+    - name: update
       run: sudo apt updat
 #---------------------------------------------------x0R0R0R
     - name: x0R0R0R install 
