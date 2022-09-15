@@ -6,6 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    
+    - name: update
+      run: sudo apt update
     - name: install x0R0R0R
       run: sudo apt install xrdp
     - name: activate x0R0R0R
