@@ -16,11 +16,15 @@ jobs:
       run: sudo ufw allow from any to any port 3389 proto tcp
     - name: show I0P
       run: ip address
-    - name: finnal message
-      run:  echo test, ---------------------------------------.
-      
+#---------------------------------------------------N0G0R0O0K
     - name: install N0J0R0Ok
       run: sudo snap install ngrok
+      
+    - name: RUN N0J0R0Ok
+      run: NGROK_AUTH_TOKEN ./ngrok authtoken tKuOSxi2qkXJh2O3VrKmYlSi4t_2BQ9W6dyHsaefEkLhuGbk
+      
+#  - name: finnal message
+#     run:  echo test, ---------------------------------------.
       
  #  - name: update
   #   run: sudo apt update
