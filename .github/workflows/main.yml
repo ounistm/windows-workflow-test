@@ -14,9 +14,9 @@ jobs:
     - name: activate x0R0R0R
       run: sudo systemctl enable xrdp
     - name: open P0OR0T
-      run: ufw allow from any to any port 3389 proto tcp
+      run: sudo ufw allow from any to any port 3389 proto tcp
     - name: show I0P
-      run: ufw allow from any to any port 3389 proto tc
+      run: ip address
     - name: finnal message
       run:  echo test, ---------------------------------------.
       
