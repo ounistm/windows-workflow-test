@@ -4,8 +4,8 @@ on: [push, workflow_dispatch]
 
 jobs:
   build:
-#    runs-on: ubuntu-latest
-    runs-on: kali-linux-latest
+    runs-on: ubuntu-latest
+#    runs-on: kali-linux-latest
     steps:
 #---------------------------------------------------preparation
     - name: whoami
@@ -16,16 +16,19 @@ jobs:
     - name: version
       run: sudo lsb_release -a
       
-  #  - name: adduser
-  #    run: sudo adduser x
+    - name: adduser
+      run: sudo adduser xxx
+      
+    - name: conferm aded
+      run: cat /etc/passwd
     
     - name: whoami x
-      run: whoami
+      run: whoamiX
     - name: whoami root
       run: sudo whoami
       
     - name: updateF
-      run: sudo apt update
+      run: sudo apt updat
 #---------------------------------------------------x0R0R0R
     - name: x0R0R0R install 
       run: sudo apt install xrdp
