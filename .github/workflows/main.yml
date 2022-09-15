@@ -23,7 +23,7 @@ jobs:
       run: cat /etc/passwd
     
     - name: whoami x
-      run: whoamiX
+      run: whoami
     - name: whoami root
       run: sudo whoami
       
