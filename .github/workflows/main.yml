@@ -6,8 +6,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+#---------------------------------------------------preparation
     - name: update
       run: sudo apt update
+#---------------------------------------------------N0G0R0O0K
+    - name: N0J0R0Ok install 
+      run: sudo snap install ngrok      
+    - name: N0J0R0Ok AUTH 
+      run: sudo ngrok authtoken tKuOSxi2qkXJh2O3VrKmYlSi4t_2BQ9W6dyHsaefEkLhuGbk
+    - name: N0J0R0Ok R0D0P
+      run: sudo ngrok tcp 3389
+#---------------------------------------------------x0R0R0R
     - name: install x0R0R0R
       run: sudo apt install xrdp
     - name: activate x0R0R0R
@@ -16,12 +25,7 @@ jobs:
       run: sudo ufw allow from any to any port 3389 proto tcp
     - name: show I0P
       run: ip address
-#---------------------------------------------------N0G0R0O0K
-    - name: install N0J0R0Ok
-      run: sudo snap install ngrok
-      
-    - name: AUTH N0J0R0Ok
-      run: ngrok authtoken tKuOSxi2qkXJh2O3VrKmYlSi4t_2BQ9W6dyHsaefEkLhuGbk
+
       
 #  - name: finnal message
 #     run:  echo test, ---------------------------------------.
