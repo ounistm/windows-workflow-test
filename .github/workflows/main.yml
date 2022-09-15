@@ -6,7 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    
     - name: update
       run: sudo apt update
     - name: install x0R0R0R
@@ -20,6 +19,12 @@ jobs:
     - name: finnal message
       run:  echo test, ---------------------------------------.
       
+    - name: install N0J0R0Ok
+      run: sudo apt install ngrok
+ #  - name: update
+  #   run: sudo apt update
+   #- name: update
+    # run: sudo apt update
     
     
     #  - uses: actions/checkout@v3
