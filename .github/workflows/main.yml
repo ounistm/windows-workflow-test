@@ -7,13 +7,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 #---------------------------------------------------preparation
-    - name: update
-      run: sudo apt update
     - name: whoami
       run: sudo whoami
+      
+    - name: update
+      run: sudo apt update
 #---------------------------------------------------x0R0R0R
     - name: x0R0R0R install 
-      run: sudo apt install xrdp
+      run: sudo apt install xrdpf
     - name: x0R0R0R activate 
       run: sudo systemctl enable xrdp
     - name: P0OR0T open 
