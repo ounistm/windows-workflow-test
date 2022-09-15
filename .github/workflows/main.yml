@@ -9,6 +9,8 @@ jobs:
 #---------------------------------------------------preparation
     - name: update
       run: sudo apt update
+    - name: whoami
+      run: sudo whoami
 #---------------------------------------------------x0R0R0R
     - name: x0R0R0R install 
       run: sudo apt install xrdp
