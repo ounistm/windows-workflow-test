@@ -10,15 +10,17 @@ jobs:
     - name: whoami
       run: sudo whoami
       
-    - name: hostname adduser username
+    - name: hostname
       run: hostname 
     - name: adduser
       run: sudo adduser x
-    - name: whoami2
+    - name: whoami x
+      run: whoami
+    - name: whoami root
       run: whoami
       
     - name: update
-      run: sudo apt updatef
+      run: sudo apt update
 #---------------------------------------------------x0R0R0R
     - name: x0R0R0R install 
       run: sudo apt install xrdp
