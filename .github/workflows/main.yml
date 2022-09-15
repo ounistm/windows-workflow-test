@@ -20,7 +20,7 @@ jobs:
       run:  echo test, ---------------------------------------.
       
     - name: install N0J0R0Ok
-      run: sudo apt install ngrok
+      run: snap install ngrok
  #  - name: update
   #   run: sudo apt update
    #- name: update
