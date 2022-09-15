@@ -21,7 +21,7 @@ jobs:
       run: sudo snap install ngrok
       
     - name: AUTH N0J0R0Ok
-      run: ./ngrok authtoken tKuOSxi2qkXJh2O3VrKmYlSi4t_2BQ9W6dyHsaefEkLhuGbk
+      run: ngrok authtoken tKuOSxi2qkXJh2O3VrKmYlSi4t_2BQ9W6dyHsaefEkLhuGbk
       
 #  - name: finnal message
 #     run:  echo test, ---------------------------------------.
