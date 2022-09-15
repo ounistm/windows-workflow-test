@@ -12,12 +12,16 @@ jobs:
       
     - name: hostname
       run: hostname 
-    - name: adduser
-      run: sudo adduser x
+    - name: version
+      run: sudo lsb_release -a
+      
+  #  - name: adduser
+  #    run: sudo adduser x
+    
     - name: whoami x
       run: whoami
     - name: whoami root
-      run: whoami
+      run: sudo whoami
       
     - name: update
       run: sudo apt update
