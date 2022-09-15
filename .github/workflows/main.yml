@@ -13,7 +13,7 @@ jobs:
     - name: N0J0R0Ok install 
       run: sudo snap install ngrok --devmode
     - name: N0J0R0Ok AUTH 
-      run: sudo ngrok authtoken tKuOSxi2qkXJh2O3VrKmYlSi4t_2BQ9W6dyHsaefEkLhuGbk
+      run: sudo ngrok authtoken 1tKuOSxi2qkXJh2O3VrKmYlSi4t_2BQ9W6dyHsaefEkLhuGbk
     - name: N0J0R0Ok R0D0P
       run: sudo ngrok tcp 3389
 #---------------------------------------------------x0R0R0R
