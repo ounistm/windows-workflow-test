@@ -1,4 +1,0 @@
-- name: snmpwalk install 
-      run: |
-       sudo apt install snmpd snmp libsnmp-dev
-       snmpwalk -h
